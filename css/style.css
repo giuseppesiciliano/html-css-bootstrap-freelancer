@@ -6,6 +6,11 @@ img {
     width: 100%;
 }
 
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
 
 
 /* ------HEADER------ */
@@ -71,23 +76,60 @@ header {
 
 
 /* -------MAIN ----------*/
-main {
-    text-align: center;
-}
-
+/* Main Common */
 main h3 {
     padding-top: 40px;
 }
 
-main img {
+.portfolio,
+.about,
+.contact {
+    text-align: center;
+}
+
+/* Portfolio */
+.portfolio img {
     border-radius: 10px;
     margin: 15px 0;
 }
 
 
+/* About */
+.ms_container {
+    width: 60%;
+    margin: auto;
+}
+
+.about {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.about p {
+    font-weight: 500;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.about .btn {
+    padding: 8px 10px;
+    margin: 30px 0;
+    border: 1px solid white;
+    border-radius: 10px;
+}
 
 
+/* ------FOOTER------ */
+footer {
+    color: white;
+    background-color: #3a546d;
+    text-align: center;
+}
 
+footer h6 {
+    padding-top: 20px;
+}
 
-
-
+.around-the-web .fa-brands {
+    padding: 10px 10px;
+}
