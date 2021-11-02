@@ -44,6 +44,8 @@ header {
 /* -----end HEADER------ */
 
 
+
+/* ------JUMBOTRON------ */
 .jumbotron {
     padding-top: 20px;
     color: white;
@@ -64,3 +66,28 @@ header {
 .jumbotron h5 {
     padding: 35px 0;
 }
+/* ----end JUMBOTRON---- */
+
+
+
+/* -------MAIN ----------*/
+main {
+    text-align: center;
+}
+
+main h3 {
+    padding-top: 40px;
+}
+
+main img {
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+
