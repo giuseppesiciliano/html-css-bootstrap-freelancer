@@ -2,21 +2,20 @@ ul {
     list-style-type: none;
 }
 
+img {
+    width: 100%;
+}
 
 
 
+/* ------HEADER------ */
 header {
     height: 100px;
     background-color: #2c3e50;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: bold;
     line-height: 100px;
-}
-
-@media screen and (min-width:768px) {
-    header {
-        font-size: 20px;
-    }
 }
 
 .burger {
@@ -30,4 +29,34 @@ header {
 .menu ul li {
     display: inline-block;
     padding: 0 20px;
+}
+
+
+@media screen and (min-width:768px) {
+    header {
+        font-size: 17px;
+    }
+}
+/* -----end HEADER------ */
+
+
+.jumbotron {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    background-color: #1abc9c;
+}
+
+.jumbotron img {
+    height: 280px;
+}
+
+.jumbotron h1 {
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.jumbotron h5 {
+    padding: 35px 0;
 }
