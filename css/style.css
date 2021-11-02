@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+}
+
+
+
+
+header {
+    height: 100px;
+    background-color: #2c3e50;
+    color: white;
+    font-size: 25px;
+    line-height: 100px;
+}
+
+@media screen and (min-width:768px) {
+    header {
+        font-size: 20px;
+    }
+}
+
+.burger {
+    text-align: right;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
