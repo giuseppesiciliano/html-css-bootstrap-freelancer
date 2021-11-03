@@ -1,3 +1,4 @@
+/* COMMON */
 ul {
     list-style-type: none;
 }
@@ -11,6 +12,29 @@ a {
     text-decoration: none;
     color: white;
 }
+
+/* Separatore con la stella */
+.line-star .line {
+    content:"";
+    width: 90px;
+    height: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.line-white {
+    background-color: white;
+}
+
+.line-black {
+    background-color: black;
+}
+
+.line-star .fa-solid {
+    padding: 0 10px;
+}
+
+
 
 
 /* ------HEADER------ */
@@ -83,9 +107,11 @@ main h3 {
 
 .portfolio,
 .about,
-.contact {
+.contact h3,
+.contact .line-star {
     text-align: center;
 }
+
 
 /* Portfolio */
 .portfolio img {
@@ -97,6 +123,7 @@ main h3 {
 /* About */
 .ms_container {
     width: 60%;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -111,12 +138,35 @@ main h3 {
     text-align: justify;
 }
 
-.about .btn {
-    padding: 8px 10px;
+.about .btn_ms {
+    color: white;
     margin: 30px 0;
     border: 1px solid white;
-    border-radius: 10px;
 }
+
+
+/* Contact Me */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.contact .container-form button {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.btn_send {
+    background-color: #1abc9c;
+    color: white;
+}
+
+
 
 
 /* ------FOOTER------ */
@@ -132,12 +182,26 @@ footer h6 {
 
 .around-the-web .fa-brands {
     padding: 10px 10px;
+    font-size: 25px;
+}
+
+.about-freelancer p {
+    padding-bottom: 30px;
+}
+
+.about-freelancer p span {
+    color: #1abc9c;
 }
 
 
 .copyright {
     font-size: 14px;
     background-color: #2c3e50;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
+
+
+
+
+
